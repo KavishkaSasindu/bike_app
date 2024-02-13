@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer component{
+    .btn-1{
+        @apply p-2 hover:bg-gray-800 rounded-md transition  duration-300  ease-in
+    }
+}
